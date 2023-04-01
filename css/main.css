@@ -1,0 +1,71 @@
+p, li{
+    font-weight: 900;
+}
+h2 {
+    color:skyblue;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+   background-color: #fffaff;
+   border: solid  #000080;
+   font-size: 20px;
+   position: sticky;
+   top: 0px;
+}
+.navbar th {
+    border: solid blue ;
+    padding: 5px
+}
+
+h1{
+    color: red;
+}
+
+body{
+    background-image: url(../img/blue-tile.png);
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, sans-serif;
+}
+header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid white;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    font-size: 12px;
+    border: 3px solid white;
+    padding-left: 5px;
+}
+
+.profile {
+    background-color: #3E92CC;
+    text-align: center';
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background: #fffaff;
+    color:#000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.active {
+    background-color:lightcoral
+}
